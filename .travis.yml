@@ -96,7 +96,7 @@ before_install:
 script:
     - mkdir -p cmake_build
     - cd cmake_build
-    - cmake .. -G Ninja
-    - ninja
+    - cmake ..
+    - make
     - cd ..
     - ./bin/main
