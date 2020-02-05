@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Useless Folders
+.idea
+.vscode
+build
+bin
+cmake_build
